@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"见证取样","entryPagePath":"pages/login.html","page":{"pages/login.html":{"window":{"usingComponents":{},"navigationBarTitleText":"登录","navigationBarBackgroundColor":"#74D4FF","titleNView":false}},"pages/shilu-login/login.html":{"window":{"usingComponents":{},"navigationBarTitleText":"登录","navigationBarBackgroundColor":"#74D4FF","titleNView":false}},"pages/main/main.html":{"window":{"usingComponents":{},"navigationBarTitleText":"主页","navigationBarBackgroundColor":"#74D4FF","titleNView":false}},"pages/main/message.html":{"window":{"usingComponents":{},"navigationBarTitleText":"消息","navigationBarBackgroundColor":"#74D4FF","titleNView":false}},"pages/main/my.html":{"window":{"usingComponents":{},"navigationBarTitleText":"我","navigationBarBackgroundColor":"#74D4FF","titleNView":false}},"pages/my/updateUserInfo.html":{"window":{"usingComponents":{},"navigationBarTitleText":"修改密码","navigationBarBackgroundColor":"#FFFFFF"}},"pages/home/processCheck/tabBar.html":{"window":{"usingComponents":{},"navigationBarTitleText":"工序验收","navigationBarBackgroundColor":"#FFFFFF"}},"pages/home/polling/tabBar.html":{"window":{"usingComponents":{},"navigationBarTitleText":"巡视管理","navigationBarBackgroundColor":"#FFFFFF"}},"pages/home/command/tabBar.html":{"window":{"usingComponents":{},"navigationBarTitleText":"指令管理","navigationBarBackgroundColor":"#FFFFFF"}},"pages/home/log/tabBar.html":{"window":{"usingComponents":{},"navigationBarTitleText":"日志管理","enablePullDownRefresh":true,"titleNView":false,"bounce":"none","scrollIndicator":"none","pullToRefresh":{"style":"circle","offset":"70px","color":"#007AFF"}}},"pages/home/log/createLog.html":{"window":{"usingComponents":{},"navigationBarTitleText":"新增日志","enablePullDownRefresh":true,"titleNView":false,"bounce":"none","scrollIndicator":"none","pullToRefresh":{"style":"circle","offset":"70px","color":"#007AFF"}}},"pages/home/log/log.html":{"window":{"usingComponents":{},"navigationBarTitleText":"日志详情","enablePullDownRefresh":true,"titleNView":false,"bounce":"none","scrollIndicator":"none","pullToRefresh":{"style":"circle","offset":"70px","color":"#007AFF"}}},"pages/home/checkIn/tabBar.html":{"window":{"usingComponents":{},"navigationBarTitleText":"试件查询","navigationBarBackgroundColor":"#FFFFFF"}},"pages/home/trace/tabBar.html":{"window":{"usingComponents":{},"navigationBarTitleText":"痕迹管理","navigationBarBackgroundColor":"#FFFFFF"}},"pages/home/samplingWitness/tabBar.html":{"window":{"usingComponents":{},"navigationBarTitleText":"取样见证","enablePullDownRefresh":true,"titleNView":false,"bounce":"none","scrollIndicator":"none","pullToRefresh":{"style":"circle","offset":"70px","color":"#007AFF"}}},"pages/home/samplingWitness/sample/sampleList.html":{"window":{"usingComponents":{},"navigationBarTitleText":"试验类型列表","navigationBarBackgroundColor":"#FFFFFF"}},"pages/home/samplingWitness/sample/addSample.html":{"window":{"usingComponents":{},"navigationBarTitleText":"取样见证","enablePullDownRefresh":true,"titleNView":false,"bounce":"none","scrollIndicator":"none"}},"pages/home/samplingWitness/sample/sampleDetail.html":{"window":{"usingComponents":{},"navigationBarTitleText":"查看详情","navigationBarBackgroundColor":"#FFFFFF"}},"pages/home/checkIn/codeDetail.html":{"window":{"usingComponents":{},"navigationBarTitleText":"二维码详情","navigationBarBackgroundColor":"#FFFFFF"}},"pages/my/feedback.html":{"window":{"usingComponents":{},"navigationBarTitleText":"问题反馈","navigationBarBackgroundColor":"#FFFFFF"}},"pages/my/about.html":{"window":{"usingComponents":{},"navigationBarTitleText":"关于应用","navigationBarBackgroundColor":"#FFFFFF"}},"pages/my/myInfo.html":{"window":{"usingComponents":{},"navigationBarTitleText":"我的资料","navigationBarBackgroundColor":"#FFFFFF"}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#7A7E83","selectedColor":"#007AFF","backgroundColor":"#F8F8F8","borderStyle":"black","list":[{"pagePath":"pages/main/main.html","iconPath":"static/main.png","selectedIconPath":"static/mainHL.png","text":"首页"},{"pagePath":"pages/main/message.html","iconPath":"static/message.png","selectedIconPath":"static/messageHL.png","text":"消息"},{"pagePath":"pages/main/my.html","iconPath":"static/my.png","selectedIconPath":"static/myHL.png","text":"我"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/login","pages/shilu-login/login","pages/main/main","pages/main/message","pages/main/my","pages/my/updateUserInfo","pages/home/processCheck/tabBar","pages/home/polling/tabBar","pages/home/command/tabBar","pages/home/log/tabBar","pages/home/log/createLog","pages/home/log/log","pages/home/checkIn/tabBar","pages/home/trace/tabBar","pages/home/samplingWitness/tabBar","pages/home/samplingWitness/sample/sampleList","pages/home/samplingWitness/sample/addSample","pages/home/samplingWitness/sample/sampleDetail","pages/home/checkIn/codeDetail","pages/my/updateUserInfo","pages/my/feedback","pages/my/about","pages/my/myInfo"],"subPackages":[],"usingComponents":{},"nvueCompiler":"weex","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.1.0"}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

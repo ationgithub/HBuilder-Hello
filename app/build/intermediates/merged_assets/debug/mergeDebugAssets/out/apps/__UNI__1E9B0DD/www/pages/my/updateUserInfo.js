@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"uni-pd { width: 90px; }\n.",[1],"uni-input{ padding: 0; }\n",],undefined,{path:"./pages/my/updateUserInfo.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/updateUserInfo.wxml') } }));

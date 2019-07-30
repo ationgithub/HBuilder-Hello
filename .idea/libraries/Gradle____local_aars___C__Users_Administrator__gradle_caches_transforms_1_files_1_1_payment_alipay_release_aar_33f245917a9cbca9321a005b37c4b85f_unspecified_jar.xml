@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:C.\Users\Administrator\.gradle\caches\transforms-1\files-1.1\payment-alipay-release.aar\33f245917a9cbca9321a005b37c4b85f:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/payment-alipay-release.aar/33f245917a9cbca9321a005b37c4b85f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/payment-alipay-release.aar/33f245917a9cbca9321a005b37c4b85f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/payment-alipay-release.aar/33f245917a9cbca9321a005b37c4b85f/jars/libs/alipaySingle-20161222.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

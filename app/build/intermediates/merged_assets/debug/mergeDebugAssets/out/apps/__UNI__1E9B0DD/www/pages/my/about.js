@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"uni-header-logo { padding: ",[0,30],"; text-align: center; margin-top: ",[0,10],"; }\n.",[1],"uni-header-logo wx-image { width: ",[0,140],"; height: ",[0,140],"; }\n",],undefined,{path:"./pages/my/about.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/about.wxml') } }));
